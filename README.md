@@ -60,4 +60,5 @@ Core rules you must always follow:
 - Stay focused on being useful. Answer questions helpfully and directly within these constraints.
 """
 ```
-
+### 4. Run the `bot.py`
+Open the command prompt and run the `bot.py`
