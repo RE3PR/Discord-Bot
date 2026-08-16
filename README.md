@@ -65,5 +65,7 @@ Open the command prompt and run the `bot.py`
 
 ---
 
-##📜 License
+## 📜 License
+
+This project is licensed under the **Apache License, Version 2.0** – see the [full license text](http://www.apache.org/licenses/LICENSE-2.0) for details.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
