@@ -63,7 +63,7 @@ Core rules you must always follow:
 ### 4. Run the `bot.py`
 Open the command prompt and run the `bot.py`
 
-
+---
 
 ##📜 License
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
