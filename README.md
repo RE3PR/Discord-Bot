@@ -2,33 +2,21 @@
 
 # 🤖 Ollama Discord Bot
 
-A modular Discord bot that integrates a local **Ollama** LLM (e.g., Llama 3, Qwen) with powerful moderation commands and an auto‑updating `Modelfile` system. The bot automatically rebuilds its AI model from the `Modelfile` every time it starts, so you can quickly iterate on prompts and behavior.
+A modular Discord bot that integrates a local **Ollama** LLM (e.g., Llama 3, Qwen) with discord! You can change the bot to whatever you like.
+
+Inside the folder you'll find a bot.py, .env and a Modelfile.
+
+Here is what they do:
+- `bot.py` - Your program that launches the bot (hosted locally)
+- `.env` - A file with all of your preferences (like keys and data you don't want others to have)
+- `Modelfile` - Your ai's personality
 
 ---
+## 🔨 How to Setup
 
-## ✨ Features
-
-- **AI Chat** – Responds to messages that mention the bot or contain configurable trigger words.
-- **Auto‑Model Update** – On every launch, the bot runs `ollama create <model> -f Modelfile` – your latest prompt changes are applied instantly.
-- **Moderation Commands** – Kick, ban, timeout, clear, lock, warn, slowmode, and more.
-- **User/Server Info** – Quick commands to display member and server details.
-- **Configurable Triggers** – Set custom trigger words (e.g., `bonnie`, `blue`, `bot`) via `.env` – no code changes needed.
-- **Secure Token Handling** – Discord token and model name stored in `.env` – never hard‑coded.
-- **Cross‑Platform** – Works on Windows, Linux, and macOS (with Ollama installed).
-
+1. **Get Ollama** - Click [here](https://ollama.com/download)
+2. **Install your LLM** - Run the command `ollama pull qwen3:8b` inside the command prompt (This a template model, there are other stronger models, click [here](https://ollama.com/library) for more models)
+3. **Set preferences** - Set up your Modelfile and .env file.
+4. **Run bot.py** - Run it inside the command prompt.
+   
 ---
-
-## 📦 Prerequisites
-
-- **Python 3.8+** – [Download](https://python.org)
-- **Ollama** – [Install](https://ollama.ai/) and have at least one base model pulled (e.g., `ollama pull llama3:8b`).
-- **Discord Bot Token** – [Create a bot](https://discord.com/developers/applications) and invite it to your server with the required permissions.
-
----
-
-## 🚀 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
